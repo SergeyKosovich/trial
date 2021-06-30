@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;700&display=swap" rel="stylesheet" />
+  <title>trial</title>
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="headerwrapper">
+      <h2 class="header_h2">manage</h2>
+      <nav class="nav">
+        <ul class="header_ul">
+          <li><a class="nav_links" href="#">Calendar</a></li>
+          <li class="headerli_selected">
+            <a class="nav_links" href="#"> Plans</a>
+          </li>
+          <li><a class="nav_links" href="#">To Do</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="select_searchwrapper">
+      <div class="select_search">
+        <div class="checkboxwrap">
+          <div class="inputleft">
+            <div class="firstcheckbox">
+              <input class="daysinput" type="checkbox" id="formToday" />
+              <label class="label" for="formToday">Today</label>
+            </div>
+            <div class="thirdcheckbox">
+              <input class="daysinput" type="checkbox" id="formWeek" />
+              <label class="label" for="formWeek">Week</label>
+            </div>
+          </div>
+          <div class="inputright">
+            <div class="secondcheckbox">
+              <input class="daysinput" type="checkbox" id="formTomorrow" />
+              <label class="label" for="formTomorrow">Tomorrow</label>
+            </div>
+            <div class="fourtheckbox">
+              <input class="daysinput" type="checkbox" id="formMonth" />
+              <label class="label" for="formMonth">Month</label>
+            </div>
+          </div>
+        </div>
+        <div class="selectwrap">
+          <div class="wrapforplansform">
+            <input type="radio" name="plansradio" class="plansradioheader" id="plansradioheader" />
+            <label for="plansradioheader" class="planceradiohederlabel">All plans</label>
+            <div class="plansformbutton"></div>
+            <div class="planradiowrapper">
+              <input type="radio" name="plansradio" class="plansradio" id="plansradio1" />
+              <label for="plansradio1" class="plansradioshdow">Family</label>
+              <input type="radio" name="plansradio" class="plansradio" id="plansradio2" />
+              <label for="plansradio2" class="plansradioshdow">Work</label>
+              <input type="radio" name="plansradio" class="plansradio" id="plansradio3" />
+              <label for="plansradio3" class="plansradioshdow">Study</label>
+              <input type="radio" name="plansradio" class="plansradio" id="plansradio4" />
+              <label for="plansradio4" class="plansradioshdow">Wish</label>
+            </div>
+          </div>
+          <div class="major">
+            <input type="radio" name="majorradio" class="majorinput" id="majorinput" />
+            <label for="majorinput" class="labelmajor">Major</label>
+            <input type="radio" class="majorinput" id="minoriput" name="majorradio" />
+            <label for="minoriput" class="labelminor">Minor</label>
+          </div>
+        </div>
+        <div class="searchwrap">
+          <form class="searchform" action="#">
+            <input class="inputsearch" type="text" />
+            <button class="buttonsearch" type="submit"></button>
+            <div class="searchtext">Search for plans</div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="maincontwrapper">
+      <div class="maincont">
+        <div class="cardswrapper">
+          <div class="addcard"></div>
+          <div class="vacationcard">
+            <div class="imgwrap vacation"></div>
+            <h3 class="h3">Vacation</h3>
+            <h4 class="h4">10/05/2019</h4>
+          </div>
+          <div class="cinemacard">
+            <div class="imgwrap cinema"></div>
+            <h3 class="h3">Cinema</h3>
+            <h4 class="h4">11/05/2019</h4>
+            <h4 class="h4_pm">7pm</h4>
+          </div>
+          <div class="second_pm">
+            <h5 class="h5_time">7PM - 8PM</h5>
+            <h3 class="h3">Doctor</h3>
+            <h4 class="h4">11/05/2019</h4>
+          </div>
+          <div class="first_pm">
+            <h5 class="h5_time">9AM - 10AM</h5>
+            <h3 class="h3">Meeting</h3>
+            <h4 class="h4">10/05/2019</h4>
+          </div>
+          <div class="dinnercard">
+            <div class="imgwrap dinner"></div>
+            <h3 class="h3">Family dinner</h3>
+            <h4 class="h4">11/12/2019</h4>
+          </div>
+          <div class="coffeecard">
+            <div class="imgwrap coffee"></div>
+            <h3 class="h3">Coffee with Susan</h3>
+            <h4 class="h4">10/05/2019</h4>
+            <a class="coffeelink" href="http://therainforestcafe.co.uk/">http://therainforestcafe.co.uk/</a>
+          </div>
+          <div class="third_pm">
+            <h5 class="h5_time">4PM - 5PM</h5>
+            <h3 class="h3">Massage</h3>
+            <h4 class="h4">11/08/2019</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footerwrapper">
+      <h2 class="footer_h2">manage</h2>
+      <ul class="footer_ul">
+        <li class="footer_li">
+          <a class="nav_links" href="#">Calendar</a>
+        </li>
+        <li class="footer_li"><a class="nav_links" href="#"> Plans</a></li>
+        <li class="footer_li"><a class="nav_links" href="#">To Do</a></li>
+      </ul>
+      <ul class="footer_icons">
+        <li class="li_icons inst"></li>
+        <li class="li_icons fb"></li>
+        <li class="li_icons twit"></li>
+      </ul>
+    </div>
+    <div class="footermini">
+      <ul class="mini_ul">
+        <li class="mini_li mini_calendar">Calendar</li>
+        <li class="mini_li mini_plans">Plans</li>
+        <li class="mini_li mini_todo">To Do</li>
+        <li class="mini_li mini_share"></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="js/1.js"></script>
+</body>
+
+</html>
